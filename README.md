@@ -1,25 +1,5 @@
-# Accelebrate Video Shorts by T4D.IO
-
 ### Automate Code Linting and Unit Testing with Azure Pipelines
-
-[![YouTube Video](images/video-screenshot.png)](https://youtu.be/cxg1Riq2lAA)
-
-This demonstration represents some of the content covered in the following React courses taught by [Accelebrate](https://www.accelebrate.com/):
-
-- [Introduction to React using JavaScript/ECMAScript](https://www.accelebrate.com/training/react)
-- [Introduction to React using TypeScript](https://www.accelebrate.com/training/react-typescript)
-- [Continuous Delivery Using Azure DevOps Services](https://www.accelebrate.com/training/azure-devops-services)
-
-
-Contact [Accelebrate](https://www.accelebrate.com/contact) today for all of your software development training needs. 
-
-### Project Setup
-
-> All instructions and code in this repository are licensed under the MIT license. Read the license text in the file `license.txt` to learn more.
-
-The provided files are the start and finish files for the video. If you desire to code along with the instructor, [Eric Greene](http://www.t4d.io), clone this repository, open the `start` folder in your code editor and get started with the [YouTube Video](#). If you prefer to review only the completed files then browse the `finish` folder. 
-
-**Note:** Before watching the video and coding along you will need to setup your local environment. Within the instructions the word `terminal` refers to the Windows Command Prompt program on Windows and the Terminal program on macOS
+**Note:** Before trying this code, you need to setup your local environment. Within the instructions the word `terminal` refers to the Windows Command Prompt program on Windows and the Terminal program on macOS
 
 **Step 1.** First, you will need to ensure you have Node.js 14.16.1 installed. Other versions of Node.js may work, but if you have any problems then please revert to version 14.16.1 as this is version used in the video. To verify if Node.js is installed on your system open a terminal window, and run the follow the command:
 
