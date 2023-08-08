@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
-    "coverage": "react-scripts test --coverage-directory test-coverage --coverage --watchAll=false"
+    "test-coverage": "react-scripts test --coverage-directory test-coverage --coverage --watchAll=false"
   },
   "eslintConfig": {
     "extends": [
