@@ -1,62 +1,70 @@
-### Automate Code Linting and Unit Testing with Azure Pipelines
-**Note:** Before trying this code, you need to setup your local environment. Within the instructions the word `terminal` refers to the Windows Command Prompt program on Windows and the Terminal program on macOS
+# Getting Started with Create React App
 
-**Step 1.** First, you will need to ensure you have Node.js 14.16.1 installed. Other versions of Node.js may work, but if you have any problems then please revert to version 14.16.1 as this is version used in the video. To verify if Node.js is installed on your system open a terminal window, and run the follow the command:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-```
-node -v
-```
+## Available Scripts
 
-If your system returns back a version number other than 14.16.1 or cannot find Node.js then you will need to install Node.js 14.16.1. To install using the system installer, please browse to the appropriate link below. The system installer only supports one version being installed on a system at a time.
+In the project directory, you can run:
 
-To download Node.js for:
+### `npm start`
 
-- 64-bit Windows: [node-v14.16.1-x64.msi](https://nodejs.org/dist/v14.16.1/node-v14.16.1-x64.msi)
-- macOS: [node-v14.16.1.pkg](https://nodejs.org/dist/v14.16.1/node-v14.16.1.pkg)
-- For all other platforms, look for the appropriate download here: [other platforms](https://nodejs.org/dist/v14.16.1/)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Once you download the Node.js installer, run the installer and complete the installation process.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Repeat the `node -v` command from a new terminal window to confirm Node.js was installed successfully.
+### `npm test`
 
-> Helpful Hint: If you need to run multiple versions of Node.js on your system consider using [NVM-Windows](https://github.com/coreybutler/nvm-windows) (for Windows) and [NVM](https://github.com/nvm-sh/nvm) (for macOS)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**Step 2.** Clone or download this code respository. To clone this repository, open a terminal window and run the following command:
+### `npm run build`
 
-```
-git clone https://github.com/t4d-accelebrate-video-shorts/react-memo.git
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-> If `git` cannot be found on your system then please visit the Git website to install it: [https://git-scm.com](https://git-scm.com) 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-If you prefer to not use Git then the repository can be downloaded by clicking the following link on the code repository's GitHub page:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-![GitHub Download Archive Button](./images/git-download-button.png)
+### `npm run eject`
 
-Extract the downloaded archive file in the folder of your choice.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-**Step 3.** Open the `start` folder in the editor of your choice. We recommended [Visual Studio Code](http://code.visualstudio.com/). It works on Windows, macOS and Linux. It is open source and free. However, any editor can be used. It is recommended to use an editor with a built-in file tree, a built-in terminal window and support for React's JSX syntax.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-**Step 4.** Install the NPM packages for the project. From a terminal window within the `start` folder run the following command:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-```
-npm install
-```
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-**Step 5.** Start the development web server for the React application. From a terminal window within the `start` folder, run the following command:
+## Learn More
 
-```
-npm start
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-When the development web server starts, it should open the React web site in your default web browser. The url will be [http://localhost:3000](http://localhost:3000)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-**Step 6.** Start watching the [YouTube Video](https://youtu.be/cxg1Riq2lAA) and code along to learn more about how to use Azure Pipelines to implement automatic code linting and unit test execution on Git pull requests.
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
